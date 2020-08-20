@@ -1,0 +1,15 @@
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\bin\Debug\amazingHeightCalculator.exe.config
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\bin\Debug\amazingHeightCalculator.exe
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\bin\Debug\amazingHeightCalculator.pdb
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.csprojAssemblyReference.cache
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.Form1.resources
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.Properties.Resources.resources
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.csproj.GenerateResource.cache
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.csproj.CoreCompileInputs.cache
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.exe
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.pdb
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.Form2.resources
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\bin\Debug\amazingHeightCalculator.exe.manifest
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\bin\Debug\amazingHeightCalculator.application
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.exe.manifest
+D:\Coding\Random Projects\amazingHeightCalculator\amazingHeightCalculator\obj\Debug\amazingHeightCalculator.application

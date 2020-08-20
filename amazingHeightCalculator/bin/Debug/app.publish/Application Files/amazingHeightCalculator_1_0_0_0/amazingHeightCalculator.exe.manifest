@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="amazingHeightCalculator.exe" version="1.0.0.0" publicKeyToken="8f7bb11d17072982" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="amazingHeightCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="amazingHeightCalculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="amazingHeightCalculator.exe" size="72104">
+      <assemblyIdentity name="amazingHeightCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vNvMI+LZY0aP5/4WJKzxIDv3kyEuZfb0iq/HHwTeAzA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="amazingHeightCalculator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=L340\Youssef" issuerKeyHash="bfb016647560d8bfa12aa3af8181a5979d0716e3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>csWFpHGSAqo6g7fS8COnbeyGNEaISsvvS0hr+bpGnoo=</DigestValue></Reference></SignedInfo><SignatureValue>SQEyZIa6d93ific1Y1LXyU8tTvdQJ//1BDClHLV4X9quiG3oHnOTO+Dz1lUbB1HZV7OQ7amORfiS79hh1oywlYThZz+32T24c+X8pfMITSi+TJNMbciOG2T47SwBI9QRLghMqNuIn+0Md+f1VkqrkSExQtuMlhIF75lyY9NPScI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qT6vT9KXbKftFwfD7JxaaL2RKZQgVWLSjwm2aXYnr2roFtXmM/oedDtIWysO028Jhl4fg/BPSboMDZUPdSybRgcmzfYSnHxoGrY7L1wGTpW5pztSb2++WcBQrUAdMA1oIB7JlCyH+FIj+3t1zMLlvGysmbyodquHa/jKqFScmg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8a9e46baf96b484befcb4a88463486ec6da723f0d2b7833aaa029271a485c572" Description="" Url=""><as:assemblyIdentity name="amazingHeightCalculator.exe" version="1.0.0.0" publicKeyToken="8f7bb11d17072982" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=L340\Youssef</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wWuOVEBeu+Yd7LkIojTOUuwJD82fF/vBoHdsCBdEhAk=</DigestValue></Reference></SignedInfo><SignatureValue>Hg0wloiHUKaV1U3B3k8b3e2oOW3Y7yPC0LbHnFEnJ6ieSjdHOT/pjpykyZRtu6umbWqKJ2RNQ83NSdAR1oLy8QjBh2SgzGcUj3RkV+A8jIaGlcCH7O5QZSxG1CJdyB2Dhn/Y7xlzXjMoIEcHLrIyUc4d+0ehyfzsThNLmfrdKBA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qT6vT9KXbKftFwfD7JxaaL2RKZQgVWLSjwm2aXYnr2roFtXmM/oedDtIWysO028Jhl4fg/BPSboMDZUPdSybRgcmzfYSnHxoGrY7L1wGTpW5pztSb2++WcBQrUAdMA1oIB7JlCyH+FIj+3t1zMLlvGysmbyodquHa/jKqFScmg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQab8ejWoZN4tKTJF4aLpUFTANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgATAAzADQAMABcAFkAbwB1AHMAcwBlAGYwHhcNMjAwODIwMTE1ODMxWhcNMjEwODIwMTc1ODMxWjAjMSEwHwYDVQQDHhgATAAzADQAMABcAFkAbwB1AHMAcwBlAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKk+r0/Sl2yn7RcHw+ycWmi9kSmUIFVi0o8Jtml2J69q6BbV5jP6HnQ7SFsrDtNvCYZeH4PwT0m6DA2VD3Usm0YHJs32Epx8aBq2Oy9cBk6Vuac7Um9vvlnAUK1AHTANaCAeyZQsh/hSI/t7dczC5bxsrJm8qHarh2v4yqhUnJoNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAc94FWdQ61BHWGujWOFcRftlaRKE7XP4zbPz2HSDKPQLQJQhcB5mbTj/Jewz6iPF7dvOaqVAZXIWrOpV93xBK5FpbB8MSkYaKghbb/E1mS2nZhZRRVi1ZaGGjJe9ywBqHtvKarL1KyAJ0deFyWqhLPc4XYbO6Tjk2asE60Td4BrY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
